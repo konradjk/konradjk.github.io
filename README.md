@@ -1,1 +1,0 @@
-# konradjk.github.io
