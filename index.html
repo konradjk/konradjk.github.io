@@ -1,1 +1,263 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Konrad J. Karczewski</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target="#sidebar">
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <!--        <div class="sidebar-header">-->
+        <!--            <h3>konradjk</h3>-->
+        <!--        </div>-->
+        <ul class="list-unstyled components nav flex-column">
+            <p>Konrad Karczewski</p>
+            <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#research">Research</a>
+                <!--                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Research</a>-->
+                <!--                <ul class="collapse list-unstyled" id="pageSubmenu">-->
+                <!--                    <li>-->
+                <!--                        <a href="#">Page 1</a>-->
+                <!--                    </li>-->
+                <!--                    <li>-->
+                <!--                        <a href="#">Page 2</a>-->
+                <!--                    </li>-->
+                <!--                    <li>-->
+                <!--                        <a href="#">Page 3</a>-->
+                <!--                    </li>-->
+                <!--                </ul>-->
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#public_projects">Public Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Page Content -->
+    <div id="content">
+        <div id="topnav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    Welcome!
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#research">Research</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#publications">Publications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#public_projects">Public Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section class="jumbotron text-center" id="about">
+            <div class="container">
+              <h1 class="jumbotron-heading">Konrad J. Karczewski</h1>
+              <p class="lead text-muted">Interpreting genetic variation using large genomic datasets.</p>
+<!--              <p>-->
+<!--                <a href="#" class="btn btn-primary my-2">Main call to action</a>-->
+<!--                <a href="#" class="btn btn-secondary my-2">Secondary action</a>-->
+<!--              </p>-->
+            </div>
+        </section>
+        <div id="inner_content">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div id="about2">
+                        <h3>About me</h3>
+                        <p>
+                            I am a Computational Biologist at the Broad Institute in Ben Neale's group working on large-scale
+                            analysis of exome sequencing data.
+                        </p>
+                        <p>
+                            I graduated with a PhD in Biomedical Informatics from Stanford University, advised by Mike Snyder and
+                            Stephen Montgomery, and an undergraduate in Molecular Biology from Princeton University, specializing in
+                            Quantitative and Computational Biology.
+                            My postdocotoral work with Daniel MacArthur focused on loss-of-function variants in humans.
+                            I am the co-author of Exploring Personal Genomics, the first
+                            inquiry-based guide to understanding and interpreting a personal genome, available from Amazon.
+                        </p>
+                        <p>
+                            Follow me on <a href="https://twitter.com/konradjk">Twitter</a> or
+                            <a href="http://github.com/konradjk/">Github</a>.
+                        </p>
+                    </div>
+                    <div id="research">
+                        <h3>Research</h3>
+                        <p>
+                            My research is focused on assembling and analyzing massive public datasets of genetic variation,
+                            and developing novel strategies using these to aid in the interpretation of putative disease variants,
+                            in order to better distinguish causal disease variants and improve our understanding of human biology.
+                        </p>
+                        <p>
+                            Broadly speaking, I am interested in genome sequencing and its future role in our daily lives.
+                            With the age of rapidly decreasing sequencing costs, it is not difficult to imagine an age where
+                            personal genetic information plays an important role in medicine and daily life.
+                            We are constantly discovering more and more of the genetic basis of diseases, but much work has
+                            yet to be done in fully explaining the genetic components of disease and other phenotypes.
+                        </p>
+                    </div>
+                    <div id="publications">
+                    <!--            TODO: links to pubs-->
+                    <h3>Selected Publications</h3>
+                    <p>
+                        Full list available at <a href="https://scholar.google.com/citations?user=fuAzo2IAAAAJ">Google Scholar</a>:
+                    </p>
+                    <p>
+                        <b>Karczewski KJ</b>, Francioli LC, Tiao G, Cummings BB, Alföldi J, Wang Q, et al.,
+                        <a href="https://www.biorxiv.org/content/10.1101/531210v3">
+                            "Variation across 141,456 human exomes and genomes reveals the spectrum of loss-of-function intolerance across human protein-coding genes."
+                        </a><i>bioRxiv</i>.
+                        2019 Jan 29. doi: 10.1101/531210
+                    </p>
+                    <p>
+                        Martin AR, <b>Karczewski KJ</b>, Kerminen S, Kurki MI, Sarin AP, Artomov M, et al.,
+                        <a href="https://www.cell.com/ajhg/fulltext/S0002-9297(18)30092-2">
+                            "Haplotype Sharing Provides Insights into Fine-Scale Population History and Disease in Finland."
+                        </a><i>Am J Hum Genet</i>.
+                        2018 Apr 25. pii: S0002-9297(18)30092-2. doi: 10.1016/j.ajhg.2018.03.003.
+                        (<a href="https://www.biorxiv.org/content/10.1101/200113v1"><i>bioRxiv</i></a>. doi: 10.1101/200113).
+                    </p>
+                    <p>
+                        <b>Karczewski KJ</b> and Snyder M.
+                        <a href="https://www.nature.com/articles/nrg.2018.4">
+                            "Integrative Omics for Health and Disease."
+                        </a><i>Nat Rev Genet</i>.
+                        2018 May; 19(5):299-310. doi: 10.1038/nrg.2018.4.
+                    </p>
+                    <p>
+                        <b>Karczewski KJ</b>, Weisburd B, Thomas B, Ruderfer DM, Kavanagh D, Hamamsy T, et al.,
+                        <a href="https://academic.oup.com/nar/article/45/D1/D840/2572071">
+                            "The ExAC Browser: Displaying reference data information from over 60,000 exomes."
+                        </a><i>Nucleic Acids Res</i>.
+                        2017 Jan 4; 45(D1):D840-D845. doi: 10.1093/nar/gkw971. Epub 2016 Nov 28.
+                        (<i>bioRxiv</i>. doi: 10.1101/070581. 2016 Aug 19.)
+                    </p>
+                    <p>
+                        Lek M, <b>Karczewski KJ</b>*, Minikel EV*, Samocha KE*, Banks E, Fennell T, et al.,
+                        <a href="https://www.nature.com/articles/nature19057">
+                            "Analysis of protein-coding genetic variation in 60,706 humans."
+                        </a><i>Nature</i>.
+                        2016 Aug 17; 536(7616):285-91. doi: 10.1038/nature19057.
+                        (<i>bioRxiv</i>. doi: 10.1101/030338. 2015 Oct 30).
+                    </p>
+                    <p>
+                        <b>Karczewski KJ</b>, Snyder M, Altman RB, Tatonetti NP.
+                        <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004122">
+                            "Coherent functional modules improve transcription factor target identification, cooperativity prediction, and disease association."
+                        </a><i>PLoS Genetics</i>.
+                        10(2): e1004122. doi:10.1371/journal.pgen.1004122.s012
+                    </p>
+                    <p>
+                        <b>Karczewski KJ</b>*, Dudley JT*, Kukurba KR, Chen R, Butte AJ, Montgomery SB, Snyder M.
+                        <a href="https://www.pnas.org/content/110/23/9607.long">
+                            "Systematic functional regulatory assessment of disease-associated variants."
+                        </a><i>Proc Natl Acad Sci U S A</i>.
+                        Epub 2013 May 20. doi: 10.1073/pnas.1219099110.
+                    </p>
+                    <p>
+                        Dudley JT and <b>Karczewski KJ</b>.
+                        <a href="https://global.oup.com/academic/product/exploring-personal-genomics-9780199644490">Exploring Personal Genomics.</a>
+                        January 2013. Oxford University Press.
+                    </p>
+                    <p>
+                        <b>Karczewski KJ</b>*, Tirrell RP*, Tatonetti NP, Dudley JT, Cordero P, Salari K, et al.,
+                        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/22174289/">
+                            "Interpretome: A Freely Available, Modular, and Secure Personal Genome Interpretation Engine."
+                        </a><i>Pac Symp Biocomput</i>.
+                        Epub 2011 Oct 25. 17:339-350(2012).
+                    </p>
+                    <p>
+                        <b>Karczewski KJ</b>, Tatonetti NP, Landt SG, Yang X, Slifer T, Altman RB, Snyder M.
+                        <a href="https://www.pnas.org/content/108/32/13353.long">
+                            "Cooperative Transcription Factor Associations Discovered using Regulatory Variation."
+                        </a><i>Proc Natl Acad Sci U S A</i>.
+                        2011 Aug 9;108(32):13353-8. doi: 10.1073/pnas.1103105108. Epub 2011 Jul 26.
+                    </p>
+                    </div>
+                    <div id="public_projects">
+                    <h3>Public Projects</h3>
+                    <p>
+                        <a href="https://gnomad.broadinstitute.org">gnomAD</a>: The Genome Aggregation Database, dataset and browser. 
+                    </p>
+                    <p>
+                        <a href="https://github.com/konradjk/loftee">LOFTEE</a>: loss-of-function variation annotation. 
+                    </p>
+                    <p>
+                        <a href="https://hail.is">Hail</a> (contributor): open-source library for large-scale data analysis. 
+                    </p>
+                    <p>
+                        <a href="http://genotation.stanford.edu/">Interpretome</a>: A Freely Available, Modular, and Secure Personal Genome Interpretation Engine.
+                    </p>
+                    </div>
+                    <div id="contact">
+                    <h3>Contact</h3>
+                    <p>
+                        Email: <a href="mailto:konradjkarczewski@gmail.com">konradjkarczewski@gmail.com</a>
+                    </p>
+                    <p>
+                        Follow me on <a href="https://twitter.com/konradjk">Twitter</a>,
+                        <a href="http://github.com/konradjk/">Github</a>,
+                        or see my <a href="http://amazon.com/author/konradjkarczewski">Amazon Author Page</a>.
+                    </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <a class="twitter-timeline" href="https://twitter.com/konradjk/timelines/1167023909310488576?ref_src=twsrc%5Etfw">konradjk - Curated tweets by konradjk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        $(".nav-item").on("click", function(){
+           $("li.nav-item.active").removeClass("active");
+           $(this).addClass("active");
+        });
+    </script>
+</body>
+</html>
